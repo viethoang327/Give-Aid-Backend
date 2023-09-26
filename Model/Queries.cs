@@ -8,6 +8,6 @@ namespace BackEnd.Model
         public string? Statust { get; set; }
         [ForeignKey(nameof(User))]
         public int? UserID { get; set; }
-        public User? User { get; set; }
+        public Users? User { get; set; }
     }
 }

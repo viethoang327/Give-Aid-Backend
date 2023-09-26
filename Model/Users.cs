@@ -1,6 +1,6 @@
 ﻿namespace BackEnd.Model
 {
-    public class User : BaseModel
+    public class Users : BaseModel
     {
         public string? Name { get; set; }
         public string? Email { get; set; }
